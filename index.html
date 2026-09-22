@@ -8,24 +8,22 @@
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;background:#07090c}
-body{display:flex;justify-content:center;min-height:100vh}
-.page{position:relative;width:min(100vw,768px);line-height:0}
+body{min-height:100vh}
+.page{position:relative;width:100%;max-width:768px;margin:0 auto}
 .hero{display:block;width:100%;height:auto}
-.links{position:absolute;inset:0;width:100%;height:100%;z-index:5;pointer-events:none}
-.links a{pointer-events:auto;touch-action:manipulation;-webkit-tap-highlight-color:rgba(255,255,255,.12)}
-.links rect{fill:transparent;stroke:none}
+.hit{position:absolute;left:13.7%;width:72.9%;height:6.08%;z-index:10;display:block;border-radius:18px;touch-action:manipulation;-webkit-tap-highlight-color:rgba(255,255,255,.12)}
+.b1{top:29.08%}.b2{top:35.85%}.b3{top:42.62%}.b4{top:49.39%}.b5{top:56.16%}.b6{top:62.93%}
 </style>
 </head>
 <body>
 <main class="page">
-<img class="hero" src="assets/fondo-web.jpg" alt="Austral Motos, Bera Motorcycles y Mozuki">
-<svg class="links" viewBox="0 0 768 1152" preserveAspectRatio="xMidYMid meet" aria-label="Enlaces Austral Motos">
-<a href="https://calendar.app.google/Q8vmh74EWJGZWAUf7" target="_blank" rel="noopener" aria-label="Agendar mantención"><rect x="103" y="335" width="562" height="68" rx="18"/></a>
-<a href="https://wa.me/56950987466?text=Hola%2C%20vengo%20desde%20el%20QR%20de%20Austral%20Motos%20y%20quisiera%20realizar%20una%20consulta." target="_blank" rel="noopener" aria-label="WhatsApp"><rect x="103" y="413" width="562" height="68" rx="18"/></a>
-<a href="https://maps.app.goo.gl/i4cEzwqbDxy1m5SP8" target="_blank" rel="noopener" aria-label="Cómo llegar"><rect x="103" y="491" width="562" height="68" rx="18"/></a>
-<a href="https://berachile.cl" target="_blank" rel="noopener" aria-label="Página web"><rect x="103" y="569" width="562" height="68" rx="18"/></a>
-<a href="https://www.instagram.com/berasantiago.cl/" target="_blank" rel="noopener" aria-label="Instagram"><rect x="103" y="647" width="562" height="68" rx="18"/></a>
-<a href="https://www.facebook.com/p/Bera-Motorcycles-Santiago-61555862702561/?locale=es_LA" target="_blank" rel="noopener" aria-label="Facebook"><rect x="103" y="725" width="562" height="68" rx="18"/></a>
-</svg>
+<img class="hero" src="assets/fondo-web.jpg?v=6" width="768" height="1152" alt="Austral Motos">
+<a class="hit b1" href="https://calendar.app.google/Q8vmh74EWJGZWAUf7" aria-label="Agendar mantención"></a>
+<a class="hit b2" href="https://wa.me/56950987466?text=Hola%2C%20vengo%20desde%20el%20QR%20de%20Austral%20Motos%20y%20quisiera%20realizar%20una%20consulta." aria-label="WhatsApp"></a>
+<a class="hit b3" href="https://maps.app.goo.gl/i4cEzwqbDxy1m5SP8" aria-label="Cómo llegar"></a>
+<a class="hit b4" href="https://berachile.cl" aria-label="Página web"></a>
+<a class="hit b5" href="https://www.instagram.com/berasantiago.cl/" aria-label="Instagram"></a>
+<a class="hit b6" href="https://www.facebook.com/p/Bera-Motorcycles-Santiago-61555862702561/?locale=es_LA" aria-label="Facebook"></a>
 </main>
-</body></html>
+</body>
+</html>
